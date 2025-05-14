@@ -112,7 +112,7 @@ npm run dev         # Runs on http://localhost:5173
 // In client/src/App.jsx
 const WS_URL = window.location.hostname === 'localhost'
   ? 'ws://localhost:8080'
-  : 'wss://pollroom.onrender.com';
+  : 'wss://poll-battel.onrender.com';
 ```
 
 ---
