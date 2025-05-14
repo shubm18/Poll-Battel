@@ -85,8 +85,6 @@ export const PollProvider = ({ children }) => {
           } else {
             setCurrentView("lobby");
           }
-
-          showToastMessage("Room Joined", `Room: ${data.payload.roomCode}`, "success");
           break;
 
         case "poll_started":
