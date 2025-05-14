@@ -1,7 +1,5 @@
 import { useRef, useState, useEffect, useCallback } from 'react';
 
-const getWebSocketProtocol = () =>
-  window.location.protocol === 'https:' ? 'wss:' : 'ws:';
 
 const useWebSocket = () => {
   const [isConnected, setIsConnected] = useState(false);
@@ -10,7 +8,6 @@ const useWebSocket = () => {
   const messageListenersRef = useRef([]);
 
   const connect = useCallback(() => {
-    const WS_PROTOCOL = getWebSocketProtocol();
     const SERVER_URL = `wss://poll-battel.onrender.com/`;
 
     if (socketRef.current) {
