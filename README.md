@@ -84,7 +84,7 @@ Poll View
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/vivek06050/PollRoom.git
+git clone https://github.com/shubm18/Poll-Battel
 cd PollRoom
 ```
 
@@ -111,7 +111,7 @@ npm run dev         # Runs on http://localhost:5173
 ```js
 // In client/src/App.jsx
 const WS_URL = window.location.hostname === 'localhost'
-  ? 'ws://localhost:3001'
+  ? 'ws://localhost:8080'
   : 'wss://pollroom.onrender.com';
 ```
 
