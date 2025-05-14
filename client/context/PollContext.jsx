@@ -58,7 +58,6 @@ export const PollProvider = ({ children }) => {
           setIsHost(true);
           setRoomUsers([{ username }]);
           setCurrentView("lobby");
-          showToastMessage("Room Created", `Room Code: ${data.payload.roomCode}`, "success");
           break;
 
         case "room_joined":
