@@ -11,7 +11,7 @@ const useWebSocket = () => {
 
   const connect = useCallback(() => {
     const WS_PROTOCOL = getWebSocketProtocol();
-    const SERVER_URL = `${WS_PROTOCOL}//localhost:8080`;
+    const SERVER_URL = `wss://poll-battel.onrender.com/`;
 
     if (socketRef.current) {
       socketRef.current.close();
