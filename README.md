@@ -61,20 +61,20 @@ Poll-Battel/
 ## screenshots of pages
 Login Page
 
-![Login Page](client/public/Login.png)
+![Login Page](client/public/login.png)
 
 Create Poll
 
-![Create Poll](client/public/create-poll.png)
+![Create Poll](client/public/createpoll.png)
 
 
 Room Code
 
-![Create Poll](client/public/Room-Code.png)
+![Create Poll](client/public/rommcode.png)
 
 Poll View
 
-![Poll View](client/public/Live-Poll.png)
+![Poll View](client/public/pollview.png)
 
 
 ---
